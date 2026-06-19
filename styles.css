@@ -1,0 +1,83 @@
+/* BACKGROUND */
+body {
+  background: linear-gradient(135deg, #1a1a1a, #0f2027);
+  font-family: 'Segoe UI', sans-serif;
+  padding: 10px;
+  color: white;
+}
+
+/* HEADER */
+h2 {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+.logo {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(255,255,255,0.4);
+}
+
+/* GLASS CARD */
+.email-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border-radius: 14px;
+  padding: 12px;
+  margin-bottom: 12px;
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  transition: all 0.25s ease;
+}
+
+/* HOVER EFFECT */
+.email-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+
+/* SUBJECT */
+.email-subject {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+/* META INFO */
+.email-meta {
+  font-size: 11px;
+  opacity: 0.8;
+  margin-bottom: 2px;
+}
+
+/* SUMMARY */
+.email-summary {
+  font-size: 12px;
+  margin-top: 6px;
+  line-height: 1.4;
+  opacity: 0.9;
+}
